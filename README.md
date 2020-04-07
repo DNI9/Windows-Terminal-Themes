@@ -11,7 +11,7 @@ I added some new themes including:
 
 ## To use these config & themes
 
-1. Copy `.terminalIcons` folder and paste it int `C:\Users\<user>\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState`
+1. Copy `.terminalIcons` folder and paste it in `C:\Users\<user>\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState`
 
 2. Open Terminal settings, which will open `Profiles.json`, Remove all from there and paste all of these from [here](https://github.com/DNI9/Windows-Terminal-Themes/raw/master/profiles.json)
 
