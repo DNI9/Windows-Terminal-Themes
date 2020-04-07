@@ -1,0 +1,164 @@
+// To view the default settings, hold "alt" while clicking on the "Settings" button.
+// For documentation on these settings, see: https://aka.ms/terminal-documentation
+// custom icon location: C:\Users\<user>\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\.terminalIcons
+{
+  "$schema": "https://aka.ms/terminal-profiles-schema",
+  "defaultProfile": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}", // default to wsl
+  "profiles": [
+    {
+      // Windows PowerShell
+      "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+      "name": "Windows PowerShell",
+      "commandline": "powershell.exe",
+      "hidden": false,
+      "acrylicOpacity": 0.75,
+      "useAcrylic": true,
+      "fontSize": 11,
+      "colorScheme": "MaterialUI"
+    },
+    {
+      // cmd.exe
+      "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+      "name": "cmd",
+      "colorScheme": "MaterialUI",
+      "commandline": "cmd.exe",
+      "hidden": false,
+      "acrylicOpacity": 0.75,
+      "useAcrylic": true,
+      "fontSize": 11
+    },
+    {
+      //Azure Cloud Shell
+      "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+      "hidden": true,
+      "name": "Azure Cloud Shell",
+      "source": "Windows.Terminal.Azure",
+      "acrylicOpacity": 0.75,
+      "useAcrylic": true,
+      "fontSize": 11
+    },
+    {
+      //Ubuntu-18.04
+      "guid": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
+      "useAcrylic": true,
+      "acrylicOpacity": 0.75,
+      "hidden": false,
+      "name": "Ubuntu-18.04",
+      "source": "Windows.Terminal.Wsl",
+      "icon": "ms-appdata:///Local/.terminalIcons/ubuntu.png",
+      "colorScheme": "MaterialUI"
+      //"experimental.retroTerminalEffect": true
+    },
+    {
+      // Git bash
+      "tabTitle": "Git Bash",
+      "name": "Git Bash",
+      "acrylicOpacity": 0.75,
+      "closeOnExit": true,
+      "colorScheme": "MaterialUI",
+      "commandline": "C:/Program Files/Git/bin/bash.exe --login",
+      "cursorColor": "#FFFFFF",
+      "cursorShape": "bar",
+      "fontSize": 12,
+      "guid": "{14ad203f-52cc-4110-90d6-d96e0f41b64d}",
+      "historySize": 9001,
+      "icon": "ms-appdata:///Local/.terminalIcons/git_logo.png",
+      "padding": "8,0",
+      "snapOnInput": true,
+      "useAcrylic": true
+    }
+  ],
+  // Add custom color schemes to this array
+  "schemes": [
+    {
+      "name": "MaterialUI", // by https://github.com/dni9
+      "background": "#161d20",
+      "black": "#181e22",
+      "brightBlack": "#191e20",
+      "blue": "#2196f3",
+      "brightBlue": "#03A9F4",
+      "cyan": "#00bcd4",
+      "brightCyan": "#18ffff",
+      "green": "#00C853",
+      "brightGreen": "#00E676",
+      "purple": "#9C27B0",
+      "brightPurple": "#b54dc7",
+      "red": "#f44336",
+      "brightRed": "#EF5350",
+      "yellow": "#ffeb3b",
+      "brightYellow": "#ffff00",
+      "brightWhite": "#FFFFFF",
+      "white": "#fafafa",
+      "foreground": "#F8F8F2",
+      "selectionBackground": "#43faa1"
+    },
+    {
+      "name": "IndianPalette", // by https://github.com/dni9
+      "brightWhite": "#FFFFFF",
+      "white": "#f7f4f4",
+      "foreground": "#f3f3f3",
+      "selectionBackground": "#d8ffec",
+      "background": "#1b2835",
+      "black": "#11171d",
+      "brightBlack": "#1b2630",
+      "blue": "#1B9CFC",
+      "brightBlue": "#28b0ff",
+      "cyan": "#25CCF7",
+      "brightCyan": "#34e7ff",
+      "green": "#55E6C1",
+      "brightGreen": "#60f5b7",
+      "purple": "#8236b8",
+      "brightPurple": "#ab47f3",
+      "red": "#fa5959",
+      "brightRed": "#ff3939",
+      "yellow": "#f7c14d",
+      "brightYellow": "#ffe134"
+    },
+    {
+      "name": "FlatUI",
+      "background": "#000000",
+      "black": "#000000",
+      "blue": "#2980b9",
+      "brightBlack": "#7f8c8d",
+      "brightBlue": "#3498db",
+      "brightCyan": "#1abc9c",
+      "brightGreen": "#2ecc71",
+      "brightPurple": "#9b59b6",
+      "brightRed": "#e74c3c",
+      "brightWhite": "#ecf0f1",
+      "brightYellow": "#f1c40f",
+      "cyan": "#16a085",
+      "foreground": "#ecf0f1",
+      "green": "#27ae60",
+      "purple": "#8e44ad",
+      "red": "#c0392b",
+      "white": "#ecf0f1",
+      "yellow": "#f39c12"
+    },
+    {
+      "name": "Dracula",
+      "background": "#272935",
+      "black": "#272935",
+      "blue": "#BD93F9",
+      "brightBlack": "#555555",
+      "brightBlue": "#BD93F9",
+      "brightCyan": "#8BE9FD",
+      "brightGreen": "#50FA7B",
+      "brightPurple": "#FF79C6",
+      "brightRed": "#FF5555",
+      "brightWhite": "#FFFFFF",
+      "brightYellow": "#F1FA8C",
+      "cyan": "#6272A4",
+      "foreground": "#F8F8F2",
+      "green": "#50FA7B",
+      "purple": "#6272A4",
+      "red": "#FF5555",
+      "white": "#F8F8F2",
+      "yellow": "#FFB86C",
+      "selectionBackground": "#8BE9FD"
+    }
+  ],
+  // Add any keybinding overrides to this array.
+  // To unbind a default keybinding, set the command to "unbound"
+  "keybindings": []
+}
